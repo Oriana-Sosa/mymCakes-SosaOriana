@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif&display=swap');
+
+/*General*/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1,h2,h3,h4,h5,p,a{
+    font-family: 'Noto Serif', serif;
+}
+
+body{
+    overflow-x: hidden;
+}
+
+.btn{
+    background-color:rgb(214, 165, 189) ;
+    border: none;
+}
+
+.btn:hover{
+    background-color:rgba(214, 165, 189, 0.733);
+    text-decoration: none;
+}
+
+a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+
+a:hover{
+    color: rgb(0, 0, 0);
+}
+
+/* Header y Nav */
+
+li a{
+    color: rgb(0, 0, 0) !important;
+}
+
+li a:hover{
+    color: rgba(214, 165, 189, 0.733) !important;
+}
+
+.portada{
+    background-image: url(../assets/img/portada.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    height: 400px;
+    background-position: center;
+}
+
+.textoPortada{
+    text-shadow: 2px 2px 4px rgb(0, 0, 0);
+}
+
+.nombrePortada{
+    font-size: 5rem;
+}
+
+/*Footer*/
+
+.logo{
+    width: 80px;
+}
+
+.redesLogo{
+    width: 30px;
+}
+
+footer{
+    background-color:rgb(214, 165, 189) ;
+}
+
+/*Productos*/
+
+.productosImg{
+    width: 220px;
+    overflow: hidden;
+}
+
+.tarjetaProductos{
+    border-radius: 10px;
+    box-shadow: 0 0 10px;
+}
+
+/*Historia*/
+
+.agradecimientos{
+    background-color:rgba(214, 165, 189, 0.76) ;
+    border-radius: 10px;
+    box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+}
+
+/*FAQs*/
+
+.preguntasRespuestas{
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+
+/*Contactos*/
+
+.contactosFondo{
+    background-image: url(../assets/img/portadaDesenfocada.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+}
+
+.mensajeTitulo{
+    color: rgb(255, 255, 255);
+    text-shadow: 2px 2px 4px rgb(0, 0, 0);
+}
+
+textarea{
+    resize: none;
+}
+
+.infoInputs{
+    width: 500px;
+    padding: 5px;
+}
+
+.btnFormulario{
+    margin-left: 20px;
+}
+
+@media(max-width:768px){
+    .infoInputs{
+        width: 300px;
+    }
+
+}
+
+@media(max-width:397px){
+    .nombrePortada{
+        font-size: 3rem;
+    }
+
+    .infoInputs{
+        width: 200px;
+    }
+}
+
+
+@media(max-width:992px){
+    .frutillas{
+        width: 200px;
+    }
+}
