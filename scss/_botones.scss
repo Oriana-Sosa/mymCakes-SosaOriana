@@ -1,0 +1,9 @@
+.btn{
+    background-color:$colorPrimario ;
+    border: none;
+}
+
+.btn:hover{
+    background-color: $colorHover;
+    text-decoration: none;
+}

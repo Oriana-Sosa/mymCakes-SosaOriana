@@ -1,154 +1,99 @@
-@import url('https://fonts.googleapis.com/css2?family=Noto+Serif&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Noto+Serif&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
 
-/*General*/
+.btn {
+  background-color: #d6a5bd;
+  border: none; }
 
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
+.btn:hover {
+  background-color: rgba(214, 165, 189, 0.733);
+  text-decoration: none; }
 
-h1,h2,h3,h4,h5,p,a{
-    font-family: 'Noto Serif', serif;
-}
+h1, h2, h3, h4, h5, p, a {
+  font-family: 'Noto Serif', serif; }
 
-body{
-    overflow-x: hidden;
-}
+a {
+  text-decoration: none;
+  color: black; }
+  a:hover {
+    color: black; }
 
-.btn{
-    background-color:rgb(214, 165, 189) ;
-    border: none;
-}
+li a {
+  color: black !important; }
+  li a:hover {
+    color: rgba(214, 165, 189, 0.733) !important; }
 
-.btn:hover{
-    background-color:rgba(214, 165, 189, 0.733);
-    text-decoration: none;
-}
+.portada {
+  background-image: url(../assets/img/portada.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  height: 400px;
+  background-position: center; }
+  .portada .textoPortada {
+    text-shadow: 2px 2px 4px black; }
+  .portada .nombrePortada {
+    font-size: 5rem; }
 
-a{
-    text-decoration: none;
-    color: rgb(0, 0, 0);
-}
+@media (max-width: 397px) {
+  .nombrePortada {
+    font-size: 3rem; } }
 
-a:hover{
-    color: rgb(0, 0, 0);
-}
+footer {
+  background-color: #d6a5bd; }
+  footer .logo {
+    width: 80px; }
 
-/* Header y Nav */
+.redesLogo {
+  width: 30px; }
 
-li a{
-    color: rgb(0, 0, 0) !important;
-}
-
-li a:hover{
-    color: rgba(214, 165, 189, 0.733) !important;
-}
-
-.portada{
-    background-image: url(../assets/img/portada.jpg);
-    background-size: cover;
-    background-attachment: fixed;
-    height: 400px;
-    background-position: center;
-}
-
-.textoPortada{
-    text-shadow: 2px 2px 4px rgb(0, 0, 0);
-}
-
-.nombrePortada{
-    font-size: 5rem;
-}
-
-/*Footer*/
-
-.logo{
-    width: 80px;
-}
-
-.redesLogo{
-    width: 30px;
-}
-
-footer{
-    background-color:rgb(214, 165, 189) ;
-}
-
-/*Productos*/
-
-.productosImg{
+.tarjetaProductos {
+  border-radius: 10px;
+  box-shadow: 0 0 10px; }
+  .tarjetaProductos .productosImg {
     width: 220px;
-    overflow: hidden;
-}
+    overflow: hidden; }
 
-.tarjetaProductos{
-    border-radius: 10px;
-    box-shadow: 0 0 10px;
-}
+@media (max-width: 992px) {
+  .frutillas {
+    width: 200px; } }
 
-/*Historia*/
+body {
+  overflow-x: hidden; }
 
-.agradecimientos{
-    background-color:rgba(214, 165, 189, 0.76) ;
-    border-radius: 10px;
-    box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
-}
+.agradecimientos {
+  background-color: rgba(214, 165, 189, 0.76);
+  border-radius: 10px;
+  box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px; }
 
-/*FAQs*/
+.preguntasRespuestas {
+  box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px; }
 
-.preguntasRespuestas{
-    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
-}
+textarea {
+  resize: none; }
 
+.infoInputs {
+  width: 500px;
+  padding: 5px; }
 
-/*Contactos*/
+.btnFormulario {
+  margin-left: 20px; }
 
-.contactosFondo{
-    background-image: url(../assets/img/portadaDesenfocada.jpg);
-    background-size: cover;
-    background-position: center;
-    height: 500px;
-}
+@media (max-width: 768px) {
+  .infoInputs {
+    width: 300px; } }
 
-.mensajeTitulo{
-    color: rgb(255, 255, 255);
-    text-shadow: 2px 2px 4px rgb(0, 0, 0);
-}
+@media (max-width: 397px) {
+  .infoInputs {
+    width: 200px; } }
 
-textarea{
-    resize: none;
-}
-
-.infoInputs{
-    width: 500px;
-    padding: 5px;
-}
-
-.btnFormulario{
-    margin-left: 20px;
-}
-
-@media(max-width:768px){
-    .infoInputs{
-        width: 300px;
-    }
-
-}
-
-@media(max-width:397px){
-    .nombrePortada{
-        font-size: 3rem;
-    }
-
-    .infoInputs{
-        width: 200px;
-    }
-}
-
-
-@media(max-width:992px){
-    .frutillas{
-        width: 200px;
-    }
-}
+.contactosFondo {
+  background-image: url(../assets/img/portadaDesenfocada.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 500px; }
+  .contactosFondo .mensajeTitulo {
+    color: white;
+    text-shadow: 2px 2px 4px black; }

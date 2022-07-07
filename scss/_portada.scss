@@ -1,0 +1,21 @@
+.portada{
+    background-image: url(../assets/img/portada.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    height: 400px;
+    background-position: center;
+        .textoPortada{
+            text-shadow: $textShadow;
+        }
+            .nombrePortada{
+                font-size: 5rem;
+            }
+}
+
+@media(max-width:397px){
+    .nombrePortada{
+        font-size: 3rem;
+    }
+}
+
+

@@ -1,0 +1,11 @@
+.contactosFondo{
+    background-image: url(../assets/img/portadaDesenfocada.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+    .mensajeTitulo{
+        color: rgb(255, 255, 255);
+        text-shadow: $textShadow;
+    }
+}
+

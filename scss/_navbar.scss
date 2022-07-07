@@ -1,0 +1,6 @@
+li a{
+    color: $colorLetras !important;
+    &:hover{
+        color: $colorHover !important;
+    }
+}

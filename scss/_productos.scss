@@ -1,0 +1,15 @@
+.tarjetaProductos{
+    border-radius: $bordesCirculares;
+    box-shadow: 0 0 10px;
+    .productosImg{
+        width: 220px;
+        overflow: hidden;
+    }
+}
+
+@media(max-width:992px){
+    .frutillas{
+        width: 200px;
+    }
+}
+
