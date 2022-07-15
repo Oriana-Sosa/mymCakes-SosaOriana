@@ -3,23 +3,11 @@ textarea{
 }
 
 .infoInputs{
-    width: 500px;
-    padding: 5px;
+    @include propiedades (500px, 5px);
 }
 
 .btnFormulario{
     margin-left: 20px;
 }
 
-@media(max-width:768px){
-    .infoInputs{
-        width: 300px;
-    }
 
-}
-
-@media(max-width:397px){
-    .infoInputs{
-        width: 200px;
-    }
-}

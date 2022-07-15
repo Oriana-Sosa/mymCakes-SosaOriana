@@ -1,0 +1,16 @@
+@each $key, $var in $coloresTarjetas {
+    .infoIndex--#{$key} {
+    background-color: $var;
+    }
+
+    .btnIndex{
+        @extend .btn;
+        padding: 15px;
+        color: white !important;
+        text-shadow: $textShadow ;
+    }
+}
+
+.fondoIndex{
+    background-color:rgb(247, 235, 241); ;
+}
