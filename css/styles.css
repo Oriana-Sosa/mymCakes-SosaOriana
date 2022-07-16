@@ -48,7 +48,7 @@ footer {
   border-radius: 10px;
   box-shadow: 0 0 10px; }
   .tarjetaProductos .productosImg {
-    width: 220px;
+    width: 100%;
     overflow: hidden; }
 
 body {
@@ -57,10 +57,11 @@ body {
 .agradecimientos {
   background-color: rgba(214, 165, 189, 0.76);
   border-radius: 10px;
-  box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px; }
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px; }
 
 .preguntasRespuestas {
-  box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px; }
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+  width: 30%; }
 
 textarea {
   resize: none; }
@@ -83,14 +84,12 @@ textarea {
 
 @media (max-width: 768px) {
   .infoInputs {
-    width: 300px; } }
+    width: 300px; }
+  .preguntasRespuestas {
+    width: 70%; } }
 
 @media (max-width: 397px) {
   .infoInputs {
-    width: 200px; } }
-
-@media (max-width: 992px) {
-  .frutillas {
     width: 200px; } }
 
 @media (max-width: 400) {
