@@ -78,7 +78,8 @@ textarea {
   padding: 5px; }
 
 .btnFormulario {
-  margin-left: 20px; }
+  margin-left: 20px;
+  padding: 15px; }
 
 .contactosFondo {
   background-image: url(../assets/img/portadaDesenfocada.jpg);
@@ -97,9 +98,7 @@ textarea {
 
 @media (max-width: 397px) {
   .infoInputs {
-    width: 200px; } }
-
-@media (max-width: 400) {
+    width: 200px; }
   .nombrePortada {
     font-size: 2rem; } }
 
