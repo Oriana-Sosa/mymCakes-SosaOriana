@@ -1,9 +1,10 @@
-.btn{
+.boton{
     background-color:$colorPrimario ;
     border: none;
-}
-
-.btn:hover{
-    background-color: $colorHover;
-    text-decoration: none;
+    color: rgb(255, 255, 255);
+    border-radius: 5px;
+    &:hover{
+        background-color: $colorHover;
+        text-decoration: none;
+    }
 }

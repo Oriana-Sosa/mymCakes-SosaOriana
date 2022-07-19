@@ -1,4 +1,8 @@
 .preguntasRespuestas{
     box-shadow: $sombraCajas;
     width: 30%;
+    
+    .linkFaqs{
+        font-weight: bolder;
+    }
 }

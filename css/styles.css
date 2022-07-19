@@ -4,13 +4,14 @@
   padding: 0;
   box-sizing: border-box; }
 
-.btn, .btnIndex {
+.boton {
   background-color: #d6a5bd;
-  border: none; }
-
-.btn:hover, .btnIndex:hover {
-  background-color: rgba(214, 165, 189, 0.733);
-  text-decoration: none; }
+  border: none;
+  color: white;
+  border-radius: 5px; }
+  .boton:hover {
+    background-color: rgba(214, 165, 189, 0.733);
+    text-decoration: none; }
 
 h1, h2, h3, h4, h5, p, a {
   font-family: 'Noto Serif', serif; }
@@ -59,9 +60,15 @@ body {
   border-radius: 10px;
   box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px; }
 
+.imgHistoria {
+  width: 80%;
+  border-radius: 10px; }
+
 .preguntasRespuestas {
   box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
   width: 30%; }
+  .preguntasRespuestas .linkFaqs {
+    font-weight: bolder; }
 
 textarea {
   resize: none; }
@@ -96,29 +103,9 @@ textarea {
   .nombrePortada {
     font-size: 2rem; } }
 
-.infoIndex--primera {
-  background-color: #d6a5bd; }
+@media (min-width: 1100px) {
+  .subtituloIndex {
+    margin-bottom: 60px; } }
 
-.btnIndex {
-  padding: 15px;
-  color: white !important;
-  text-shadow: 2px 2px 4px black; }
-
-.infoIndex--segunda {
-  background-color: #ddc4d0; }
-
-.btnIndex {
-  padding: 15px;
-  color: white !important;
-  text-shadow: 2px 2px 4px black; }
-
-.infoIndex--tercera {
-  background-color: #dab3c6; }
-
-.btnIndex {
-  padding: 15px;
-  color: white !important;
-  text-shadow: 2px 2px 4px black; }
-
-.fondoIndex {
-  background-color: #f7ebf1; }
+.imgIndex {
+  width: 100%; }
