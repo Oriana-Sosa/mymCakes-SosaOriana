@@ -55,6 +55,9 @@ footer {
 body {
   overflow-x: hidden; }
 
+.body {
+  overflow-x: hidden; }
+
 .agradecimientos {
   background-color: rgba(214, 165, 189, 0.76);
   border-radius: 10px;
