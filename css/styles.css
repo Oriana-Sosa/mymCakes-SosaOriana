@@ -103,7 +103,7 @@ textarea {
   .infoInputs {
     width: 200px; }
   .nombrePortada {
-    font-size: 2rem; } }
+    font-size: 3.2rem !important; } }
 
 @media (min-width: 1100px) {
   .subtituloIndex {
