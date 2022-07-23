@@ -34,8 +34,7 @@ li a {
   height: 450px;
   background-position: center; }
   .portada .textoPortada {
-    text-shadow: 2px 2px 4px black;
-    font-size: 5rem; }
+    text-shadow: 2px 2px 4px black; }
 
 footer {
   background-color: #d6a5bd; }
@@ -101,13 +100,15 @@ textarea {
 
 @media (max-width: 397px) {
   .infoInputs {
-    width: 200px; }
-  .nombrePortada {
-    font-size: 3.2rem !important; } }
+    width: 200px; } }
 
 @media (min-width: 1100px) {
   .subtituloIndex {
     margin-bottom: 60px; } }
+
+@media (min-width: 390px) {
+  .nombrePortada {
+    font-size: 5rem !important; } }
 
 .imgIndex {
   width: 100%; }
